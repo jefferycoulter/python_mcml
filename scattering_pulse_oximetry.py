@@ -797,7 +797,6 @@ class Photon:
         self.x += s*self.ux
         self.y += s*self.uy
         self.z += s*self.uz
-        # print("x: ",self.x,"y: ",self.y,"z: ",self.z)
     
     def drop(self, model):
         # drop weight (absorption)
